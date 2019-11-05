@@ -1,0 +1,35 @@
+<!--Saugat Dawadi CS375 HW3 Html code-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- CLIENT -->
+  <script src="client.js"></script>
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS -->
+  <style>
+    #current {
+      padding: 1em;
+    }
+
+    button {
+      margin: 1em;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="current"></div>
+  <button onclick="getLocation()" type="button" class="btn btn-outline-primary">Get Weather</button>
+  <!-- Weather Table -->
+  <div class="container-fluid" id="table">
+  </div>
+</body>
+
+</html>
